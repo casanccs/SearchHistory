@@ -1,0 +1,9 @@
+matplotlib
+plotly
+scipy
+numpy
+pandas
+scikit-learn
+openai
+ratelimit
+gensim
