@@ -3,17 +3,22 @@
         <link rel="stylesheet" href="extension.css">
     </head>
     <body>
-        <h1>Hello Extensions</h1>
+        <h1>Quick History</h1>
         <label>Start Date: </label>
         <input class="startDate" type="date" />
         <label>(Defaults to last week)</label>
         <br />
-        <lable>End Date:</label>
+        <label>End Date:</label>
         <input class="endDate" type="date" />
         <br />
-        <input class="button" type='button' value="Train with current History" />
-        <label>NOTE: Only returns 500 Entries!!</label>
-        <h3>Last Trained: <span class="lastDate">N/A</span></h3>
+        <label>Search: </label>
+        <input class="search" type="text" />
+        <input class="button" type='button' value="Search History" />
+        <label>NOTE: Only searches 500 Entries!!</label>
         <script src="postHistory.js"></script>
+        <p>Results:</p>
+        <ol class="list">
+
+        </ol>
     </body>
 </html>
